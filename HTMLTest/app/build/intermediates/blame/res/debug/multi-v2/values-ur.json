@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "L:\\PinBoard\\PB\\HTMLTest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ur\\values-ur.xml",
+            "outputFile": "L:\\PinBoard\\PinBoard\\HTMLTest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ur\\values-ur.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\7805427e3445d32c2ff10acb510a061d\\appcompat-1.0.2\\res\\values-ur\\values-ur.xml",
