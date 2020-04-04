@@ -1,0 +1,54 @@
+<! DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="index-Table-style.css">
+		<script src="index-Table-script.js"></script>
+	</head>
+	
+	<body>
+		<!-- Dropdown Inputbox -->
+		<div id="popDiv" class="header"> 
+			<h2 style="margin:5px">New Project Name</h2>
+			<input type="text" id="nameInput" placeholder="Name...">
+			<span onclick="newElement()" class="addBtn"> Add </span>
+		</div>
+		
+		<table>
+		<tr>
+			<th id="t-11" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<div class="note" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">Text-1</div>
+			</th>
+			<th id="t-12" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-13" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-14" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-15" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+		</tr>
+		<tr>
+			<th id="t-21" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-22" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-23" ondrop="drop(event)" ondragover="allowDrop(event)">
+				<div class="note" draggable="true" ondragstart="drag(event)" id="drag2" width="88" height="31">Text-2</div>
+			</th>
+			<th id="t-24" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-25" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+		</tr>
+		<tr>
+			<th id="t-31" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-32" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-33" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-34" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-35" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+		</tr>
+		<tr>
+			<th id="t-41" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<div class="note" draggable="true" ondragstart="drag(event)" id="drag3" width="88" height="31">Text-3</div>
+			</th>
+			<th id="t-42" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-43" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-44" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-45" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+		</tr>
+		</table>
+	</body>
+</html>
