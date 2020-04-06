@@ -7,17 +7,19 @@
 	</head>
 	
 	<body>
+	  <center>
 		<!-- Dropdown Inputbox -->
-		<div id="popDiv" class="header"> 
+		<div id="pContainer" class="pContainer"> 
 			<h2 style="margin:5px">New Project Name</h2>
 			<input type="text" id="nameInput" placeholder="Name...">
 			<span onclick="newElement()" class="addBtn"> Add </span>
 		</div>
 		
+		<!-- Tabelle mit Drag&Drop Funktion -->
 		<table>
 		<tr>
 			<th id="t-11" ondrop="drop(event)" ondragover="allowDrop(event)">
-			<div class="note" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">Text-1</div>
+				<div class="note" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">Text-1</div>
 			</th>
 			<th id="t-12" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
 			<th id="t-13" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
@@ -42,13 +44,22 @@
 		</tr>
 		<tr>
 			<th id="t-41" ondrop="drop(event)" ondragover="allowDrop(event)">
-			<div class="note" draggable="true" ondragstart="drag(event)" id="drag3" width="88" height="31">Text-3</div>
+				<div class="note" draggable="true" ondragstart="drag(event)" id="drag3" width="88" height="31">Text-3</div>
 			</th>
 			<th id="t-42" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
 			<th id="t-43" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
 			<th id="t-44" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
 			<th id="t-45" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
 		</tr>
+		<tr>
+			<th id="t-51" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-52" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-53" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-54" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-55" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+		</tr>
 		</table>
+		<button onclick="input()">New</div>
+	  </center>	
 	</body>
 </html>
