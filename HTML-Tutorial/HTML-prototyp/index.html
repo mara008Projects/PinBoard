@@ -1,0 +1,108 @@
+<! DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="index-style.css">
+		<script src="index-script.js"></script>
+	</head>
+	
+	<body>
+	  <center>
+		<!-- Dropdown Inputbox -->
+		<div id="pContainer" class="pContainer"> 
+			<h2 style="margin:5px">New Project Name</h2>
+			<input type="text" id="nameInput" placeholder="Name...">
+			<Button onclick="newElement()" class="addBtn"> Add </Button>
+		</div>
+		
+	<!--Background-->
+		<div  class="bg" id="wraper">
+	
+	<!--Obere Zeile-->	
+		<div id="topLine">
+			<div class="borderTL"></div> 
+			<div class="borderTM"></div>
+			<div class="borderTR"></div>
+		</div>
+		
+	<!--Mittlerer Bereich-->	
+		<div id="middle">
+			<div class="borderML"></div>
+			<div class="borderMM">
+		
+		<!-- Tabelle mit Drag&Drop Funktion -->
+		<table id = "myTable" >
+		<tr>
+			<th id="t-11" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-12" ondrop="drop(event)" ondragover="allowDrop(event)">
+				<div class="note" 
+					draggable="true" 
+					ondragstart="drag(event)" 
+					id="drag1" 
+					onclick="location.href='prototype01.html';"
+					>Text-1</div></th>
+			<th id="t-13" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-14" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-15" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+		</tr>
+		<tr>
+			<th id="t-21" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-22" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-23" ondrop="drop(event)" ondragover="allowDrop(event)">
+				<div class="note" 
+					draggable="true" 
+					ondragstart="drag(event)" 
+					id="drag2" 
+					onclick="location.href='prototype01.html';"
+					>Text-2</div>
+			</th>
+			<th id="t-24" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-25" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+		</tr>
+		<tr>
+			<th id="t-31" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-32" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-33" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-34" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-35" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+		</tr>
+		<tr>
+			<th id="t-41" ondrop="drop(event)" ondragover="allowDrop(event)">
+				<div class="note" 
+					draggable="true" 
+					ondragstart="drag(event)" 
+					id="drag3" 
+					onclick="location.href='prototype01.html';"
+					>Text-3</div>
+			</th>
+			<th id="t-42" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-43" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-44" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-45" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+		</tr>
+		<tr>
+			<th id="t-51" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-52" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-53" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-54" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+			<th id="t-55" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+		</tr>
+		</table>
+		
+			</div>
+			<div class="borderMR"></div>
+		</div>
+		
+	<!--Untere Leiste-->	
+		<div id="botLine">
+			<div class="borderBL"></div> 
+			<div class="borderBM"></div>
+			<div class="borderBR"></div>
+		</div>
+		
+		</div>
+		
+		<button onclick="add()">New</div>
+	  </center>	
+	</body>
+</html>

@@ -1,0 +1,114 @@
+
+#wrapper {
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.bg{
+	width: 960px;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url("bg-poly-purple.png");
+	
+}
+
+.bAdd{
+	background-image: 	url("BG_Add.png");
+	background-size: 	100% 100%;
+	background-repeat: 	no-repeat;
+	width:  			92px;
+	height: 			92px;
+}
+
+
+#topLine{
+	float: top;
+    height: 7%;
+}
+.borderTL{
+	float: 				left;
+	width:  			43px;
+	height: 			43px;
+	background-image: 	url("png/BG_TL.png");
+	background-size: 	contain;
+	background-repeat: 	no-repeat;
+	opacity: 0.5;
+}
+.borderTM{
+	float: left;
+	background-image: 	url("png/BG_TM.png");
+	background-size: 	contain;
+	width:  			91%;
+	height: 			43px;
+	opacity: 0.5;
+}
+.borderTR{
+	float: left;
+	background-image: 	url("png/BG_TR.png");
+	background-size: 	100% 100%;
+	background-repeat: 	no-repeat;
+	width:  			43px;
+	height: 			43px;
+	opacity: 0.5;
+}
+
+#middle{
+	float: top;
+    height: 77%;
+}
+.borderML{
+	float: left;
+	background-image: 	url("png/BG_ML.png");
+	background-size: 	contain;
+	width:  			43px;
+	height: 			100%;
+	opacity: 0.5;
+}
+.borderMM{
+	float: left;
+	width:  			91%;
+	height: 			100%;
+}
+.borderMR{
+	float: left;
+	background-image: 	url("png/BG_MR.png");
+	background-size: 	contain;
+	width:  			43px;
+	height: 			100%;
+	opacity: 0.5;
+}
+
+
+#botLine{
+	float: top;
+    height: 15,5%;
+}
+.borderBL{
+	float: left;
+	background-image: 	url("png/BG_BL.png");
+	background-size: 	contain;
+	background-repeat: 	no-repeat;
+	width:  			43px;
+	height: 			86px;
+	opacity: 0.5;
+}
+.borderBM{
+	float: left;
+	background-image: 	url("png/BG_BM.png");
+	background-size: 	contain;
+	width:  			91%;
+	height: 			86px;
+	opacity: 0.5;
+}
+.borderBR{
+	float: left;
+	background-image: 	url("png/BG_BR.png");
+	background-size: 	contain;
+	background-repeat: 	no-repeat;
+	width:  			43px;
+	height: 			86px;
+	opacity: 0.5;
+}
