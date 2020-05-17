@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title> PinBoard </title>
+		<link rel="stylesheet" href="baseLayout.css">
+		<style type="text/css">
+			
+		</style>
+	</head>
+	
+	<body>
+		<center>
+		<div class="bg" id="wrapper">
+			<!--Gesammtansicht-->
+			<div class="ver1">
+				<div class="btn-top">
+					<a href="index.html">exit</a>
+				</div>
+				<div class="btn-cntr" onclick="openInput()">
+					<p> Text </p>
+				</div>
+				<div class="btn-cntr">
+					Paint
+				</div>
+				<div class="btn-btm">
+					Menü
+				</div>
+			</div>
+			
+			<!--PopUp_Texteingabe-->
+			<div class="popupContainer" id="popupContainer">
+				Test PopUp
+				<div class="ver1">
+					<div class="btn-top" onclick="closeInput()">
+					exit
+					</div>
+				</div>
+				<div class="ver15">
+					<Textarea name="nachricht" 
+							id="textBox"
+							cols=40>
+						Ihre Nachricht
+					</textarea>
+					<!--input type="text" 
+							id="textBox"
+							placeholder="Put in Text, por favor"
+							required-->
+				</div>
+			</div>
+		</div>
+		</center>
+	</body>
+	
+	<script>
+		function openInput() {
+			document.getElementById("popupContainer").style.display = "block";
+		}
+		function closeInput() {
+			document.getElementById("popupContainer").style.display = "none";
+		}
+	</script>
+
+
+</html>	
