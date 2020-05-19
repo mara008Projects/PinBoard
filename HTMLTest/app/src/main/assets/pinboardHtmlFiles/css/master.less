@@ -1,0 +1,74 @@
+// Dies ist ein LESS Stylesheet
+
+//schrift wird eingebettet und in less variable gepackt:
+@font-face {
+font-family: "atp";
+src: url("../fonts/All Things Pink Skinny.ttf");
+}
+@fontatp: "atp";
+
+//LESS Variablen:
+@bgcolor: #003d66;      //Blau Hintergrund
+@compcolor: #bf00ff;    //Pink Textboxen
+@fontcolor: #e6f5ff;    //Schrift weiss
+@headingcolor: #ccebff;  //hellblau Headings
+@fontweightHighlight:  bold;    //schrift fett
+@fontHighlightColor: cyan ;      //cyan bei hover hadings
+@fontsizetext: 2vw !important;
+@fontsizeHeader: 5vw !important;
+
+
+body {
+	background: @bgcolor;
+
+
+}
+div.container {
+	background: @compcolor;
+}
+
+p {
+color: @fontcolor;
+font-size: @fontsizetext;
+}
+
+
+
+
+h1 {
+color: @headingcolor;
+//font-family: 'atp', Fallback, sans-serif;
+font-family: @fontatp;
+font-size: @fontsizeHeader;
+}
+
+h3 {
+color: @headingcolor;
+//font-family: 'atp', Fallback, sans-serif;
+font-family: @fontatp;
+//font-size: @fontsizeHeader;
+}
+
+a.nav-link {
+color: orange !important;
+}
+
+
+a.nav-link:hover {
+font-weight: @fontweightHighlight;
+color: yellow !important;
+}
+
+h1:hover {
+ font-weight: @fontweightHighlight;
+ color: @fontHighlightColor !important;
+ }
+
+h3:hover {
+font-weight: @fontweightHighlight;
+color: @fontHighlightColor !important;
+}
+
+li {
+ color: @fontcolor;
+}

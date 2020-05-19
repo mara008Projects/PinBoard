@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "atp";
+  src: url("../fonts/All Things Pink Skinny.ttf");
+}
+body {
+  background: #003d66;
+}
+div.container {
+  background: #bf00ff;
+}
+p {
+  color: #e6f5ff;
+  font-size: 2vw;
+}
+h1 {
+  color: #ccebff;
+  font-family: "atp";
+  font-size: 5vw;
+}
+h3 {
+  color: #ccebff;
+  font-family: "atp";
+}
+a.nav-link {
+  color: orange !important;
+}
+a.nav-link:hover {
+  font-weight: bold;
+  color: yellow !important;
+}
+h1:hover {
+  font-weight: bold;
+  color: #00ffff !important;
+}
+h3:hover {
+  font-weight: bold;
+  color: #00ffff !important;
+}
+li {
+  color: #e6f5ff;
+}
