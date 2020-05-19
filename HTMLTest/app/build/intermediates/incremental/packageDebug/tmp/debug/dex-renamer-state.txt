@@ -1,4 +1,4 @@
-#Wed Apr 01 18:19:16 CEST 2020
+#Tue May 19 21:59:48 CEST 2020
 base.0=L\:\\PinBoard\\PinBoard\\HTMLTest\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
