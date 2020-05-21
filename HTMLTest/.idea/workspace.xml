@@ -59,11 +59,11 @@
     <property name="ExportApk.SignV1" value="true" />
     <property name="ExportApk.SignV2" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/assets/pinboardHtmlFiles/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/assets/pinboardHtmlFiles/css" />
     <property name="project.structure.last.edited" value="Suggestions" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="PsdUISettings">
     <option name="MODULE_TAB" value="Properties" />
@@ -71,17 +71,19 @@
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets\pinboardHtmlFiles\javascript" />
+      <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets\pinboardHtmlFiles\css" />
+      <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets\pinboardHtmlFiles\img" />
+      <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets\pinboardHtmlFiles" />
+      <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets\pinboardHtmlFiles\less" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets\pinboardHtmlFiles\fonts" />
+      <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets\pinboardHtmlFiles\css" />
       <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets\pinboardHtmlFiles" />
       <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets" />
+      <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets\pinboardHtmlFiles\fonts" />
       <recent name="L:\PinBoard\PinBoard\HTMLTest\app\src\main\assets" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets\pinboardHtmlFiles\css" />
-      <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets\pinboardHtmlFiles\less" />
-      <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets\pinboardHtmlFiles\javascript" />
-      <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets\pinboardHtmlFiles" />
     </key>
   </component>
   <component name="RunDashboard">
