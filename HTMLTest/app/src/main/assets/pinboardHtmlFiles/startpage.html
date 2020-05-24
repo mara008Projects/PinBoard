@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="css/index-Table-style.css">
     <script src="javascript/index-Table-script.js"></script>
 
+
+
     <title>Hello, Bootstrap!</title>
 
     <script>
@@ -138,12 +140,22 @@ $(this).hide();
                 <th id="t-52" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
                 <th id="t-53" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
                 <th id="t-54" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
-                <th id="t-55" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
-            </tr>
-        </table>
+                <th id="t-55" ondrop="drop(event)" ondragover="allowDrop(event)">
 
-        <button onclick="input()">New</button>
+                </th>
+
+            </tr>
+
+        </table>
+           <!-- Bootstrap icons -->
+
+
+           <button id="btnnewitem" onclick="input()">
+                   <img src="img/bootstrap icons/plus-circle-fill.svg" alt="" width="32" height="32" title="Bootstrap" id="svgadd">
+               </Button>
+           </button>
     </center>
+
 
 </div>
 <!-- /.container -->
@@ -215,10 +227,35 @@ $(this).hide();
 
 <!-- Footer/Menubar -->
 <div class="container" id="container2" >
+
+    <div class="container" id="container21" >
+        <a href="startpage.html">
+            <Button id="buttonhouse">
+                <img src="img/bootstrap icons/house-fill.svg" alt="" width="32" height="32" title="Bootstrap" id="svghouse">
+            </Button>
+             </a>
+    </div>  <!-- End of div container 2.1</h1>  -->
+
+        <div class="container" id="container22" >
+            <a href="toDoList.html"><Button>ToDoList</Button></a>
+            <a href="index-Table.html"><Button>TableStyle</Button></a>
+            <a href="bootstrapSite.html"><Button>Bootstrap Page</Button></a>
+        </div> <!-- End of div container 2.2</h1>  -->
+
+
+        <div class="container" id="container23">
+            <a href="prototype01.html"  id="linksettings">
+                <Button id="buttonsettings">
+                    <img src="img/bootstrap icons/wrench.svg" alt="" width="32" height="32" title="Bootstrap" id="svgsettings">
+                </Button>
+            </a>
+        </div><!-- End of div container 2.3</h1>  -->
+
+
     <!-- <h1 class="mt-4">Logo Nav by Start Bootstrap</h1>
     <p>The logo in the navbar is now a default Bootstrap feature in Bootstrap 4!
     Make sure to set the width and height of the logo within the HTML or with CSS. For best results, use an SVG image as your logo.</p> -->
-</div>
+</div> <!-- End of div container 2</h1>  -->
 
 </body>
 </html>

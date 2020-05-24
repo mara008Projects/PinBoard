@@ -16,7 +16,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_C_Android_8.0" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_10_Android_9.0" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -52,18 +52,18 @@
   <component name="PropertiesComponent">
     <property name="ApkExportedModule" value="app" />
     <property name="BundleExportedModule" value="app" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_C_Android_8.0" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-05-17T19:34:48.497Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_10_Android_9.0" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-05-23T14:22:27.318Z" />
     <property name="ExportApk.ApkPath" value="C:\Users\User\AndroidStudioProjects\HTMLTest\app" />
     <property name="ExportApk.BuildVariants" value="release" />
     <property name="ExportApk.SignV1" value="true" />
     <property name="ExportApk.SignV2" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/assets/pinboardHtmlFiles/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/assets/pinboardHtmlFiles/img/bootstrap icons" />
     <property name="project.structure.last.edited" value="Suggestions" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
   <component name="PsdUISettings">
     <option name="MODULE_TAB" value="Properties" />
@@ -72,18 +72,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets\pinboardHtmlFiles\img" />
       <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets\pinboardHtmlFiles\javascript" />
       <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets\pinboardHtmlFiles\css" />
-      <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets\pinboardHtmlFiles\img" />
       <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets\pinboardHtmlFiles" />
       <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets\pinboardHtmlFiles\less" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets\pinboardHtmlFiles\img\bootstrap icons" />
       <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets\pinboardHtmlFiles\css" />
       <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets\pinboardHtmlFiles" />
       <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets" />
       <recent name="C:\Users\User\AndroidStudioProjects\HTMLTest\app\src\main\assets\pinboardHtmlFiles\fonts" />
-      <recent name="L:\PinBoard\PinBoard\HTMLTest\app\src\main\assets" />
     </key>
   </component>
   <component name="RunDashboard">
