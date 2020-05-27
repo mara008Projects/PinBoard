@@ -28,6 +28,7 @@ function input(){
 // https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_todo 
 
 function newElement(){
+	testIDB();
 //	alert ("Add angeklickt");
 	var name = document.getElementById("nameInput").value;
 	
@@ -40,6 +41,21 @@ function newElement(){
 		placeOnTable(name);	
 	}
 	 
+}
+
+
+//https://developers.google.com/web/ilt/pwa/working-with-indexeddb
+
+function testIDB(){
+  alert ("IDB TEst started");
+  if (!('indexedDB' in window)) {
+	alert ("IndexedDB is not supportet :(");
+  //console.log('This browser doesn\'t support IndexedDB');
+  return;
+  }else{
+	alert ("IndexedDB is supportet :D");
+  return;
+  }	
 }
 
 
