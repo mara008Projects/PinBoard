@@ -27,7 +27,7 @@ function input(){
 
 // https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_todo
 
-function newElement(){
+function newElement2(){
 //	alert ("Add angeklickt");
 	var name = document.getElementById("nameInput").value;
 
@@ -37,7 +37,7 @@ function newElement(){
 	//	document.getElementById("myTable").appendChild(th);
 		input(); //schließt PopUp
 
-		placeOnTable(name);
+		placeOnTable2(name);
 	}
 
 }
@@ -45,13 +45,13 @@ function newElement(){
 
 
 
-function placeOnTable(name){
+function placeOnTable2(name){
 	var nDiv = document.createElement('div');
 	nDiv.className = "note"
 	nDiv.setAttribute( 'draggable', true);
 	nDiv.setAttribute('ondragstart',"drag(event)");
 	nDiv.id = "drag4";
-	nDiv.setAttribute('onclick',"location.href='workpage.html';");
+	nDiv.setAttribute('onclick',"location.href='modulpage.html';");
 
 	nDiv.innerHTML = name;
 

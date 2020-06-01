@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <!-- Required meta tags -->
 
-    <link rel="stylesheet" href="css/startpage.css">
+    <link rel="stylesheet" href="css/boardpagestyle.css">
 
     <script src="javascript/jquery-3.5.1.min.js" ></script>
     <script src="bootstrap/js/bootstrap.min.js" ></script>
@@ -17,21 +17,14 @@
     <link rel="stylesheet" href="css/index-Table-style.css">
     <script src="javascript/index-Table-script.js"></script>
 
+    <!-- Kontextmenu Funktion -->
+<script src="javascript/contextmenufunction.js"></script>
 
-
-    <title>Hello, Bootstrap!</title>
-
-    <script>
-$(document).ready(function(){
-
-$("p").click(function(){
-$(this).hide();
-});
-});
-</script>
-
+<title>Startpage</title>
 </head>
 <body>
+
+<h3 class=mainheading>Startpage</h3>
 <!-- Navigation -->
 <!--
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
@@ -82,81 +75,73 @@ $(this).hide();
             <input type="text" id="nameInput" placeholder="Name...">
             <Button onclick="newElement()" class="addBtn"> Add </Button>
         </div>
-
         <!-- Tabelle mit Drag&Drop Funktion -->
-
         <table id = "myTable">
-            <tr>
-                <th id="t-11" ondrop="drop(event)" ondragover="allowDrop(event)">
-                    <div class="note"
-                         draggable="true"
-                         ondragstart="drag(event)"
-                         id="drag1"
-                         onclick="location.href='prototype01.html';"
-                    >Text-1</div>
-                </th>
-                <th id="t-12" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
-                <th id="t-13" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
-                <th id="t-14" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
-                <th id="t-15" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
-            </tr>
-            <tr>
-                <th id="t-21" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
-                <th id="t-22" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
-                <th id="t-23" ondrop="drop(event)" ondragover="allowDrop(event)">
-                    <div class="note"
-                         draggable="true"
-                         ondragstart="drag(event)"
-                         id="drag2"
-                         onclick="location.href='prototype01.html';"
-                    >Text-2</div>
-                </th>
-                <th id="t-24" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
-                <th id="t-25" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
-            </tr>
-            <tr>
-                <th id="t-31" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
-                <th id="t-32" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
-                <th id="t-33" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
-                <th id="t-34" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
-                <th id="t-35" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
-            </tr>
-            <tr>
-                <th id="t-41" ondrop="drop(event)" ondragover="allowDrop(event)">
-                    <div class="note"
-                         draggable="true"
-                         ondragstart="drag(event)"
-                         id="drag3"
-                         onclick="location.href='prototype01.html';"
-                    >Text-3</div>
-                </th>
-                <th id="t-42" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
-                <th id="t-43" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
-                <th id="t-44" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
-                <th id="t-45" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
-            </tr>
-            <tr>
-                <th id="t-51" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
-                <th id="t-52" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
-                <th id="t-53" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
-                <th id="t-54" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
-                <th id="t-55" ondrop="drop(event)" ondragover="allowDrop(event)">
-
-                </th>
-
-            </tr>
-
-        </table>
-           <!-- Bootstrap icons -->
-
-
+          <tr>
+              <th id="t-11" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <div class="note"
+                              draggable="true"
+                              ondragstart="drag(event)"
+                              id="drag1"
+                              onclick="location.href='workpage.html';"
+                         >Text-1</div>
+                     </th>
+                     <th id="t-12" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                     <th id="t-13" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                     <th id="t-14" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                     <th id="t-15" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                 </tr>
+                 <tr>
+                     <th id="t-21" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                     <th id="t-22" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                     <th id="t-23" ondrop="drop(event)" ondragover="allowDrop(event)">
+                                  <div class="note"
+                                    draggable="true"
+                                    ondragstart="drag(event)"
+                                    id="drag2"
+                                    onclick="location.href='workpage.html';"
+                               >Text-2</div>
+                    </th>
+                    <th id="t-24" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                    <th id="t-25" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                </tr>
+                <tr>
+                    <th id="t-31" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                    <th id="t-32" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                    <th id="t-33" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                    <th id="t-34" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                    <th id="t-35" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                </tr>
+                <tr>
+                    <th id="t-41" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <div class="note"
+                               draggable="true"
+                               ondragstart="drag(event)"
+                               id="drag3"
+                               onclick="location.href='workpage.html';"
+                          >Text-3</div> 
+                      </th>
+                      <th id="t-42" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                      <th id="t-43" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                      <th id="t-44" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                      <th id="t-45" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                  </tr>
+                  <tr>
+                      <th id="t-51" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                      <th id="t-52" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                      <th id="t-53" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                      <th id="t-54" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                      <th id="t-55" ondrop="drop(event)" ondragover="allowDrop(event)">
+                      </th>
+                  </tr>
+                </table>
+                             <!-- Add new Item Control -->
            <button id="btnnewitem" onclick="input()">
-                   <img src="img/bootstrap icons/plus-circle-fill.svg" alt="" width="32" height="32" title="Bootstrap" id="svgadd">
+                   <img src="img/bootstrap icons/plus-circle-fill.svg" alt=""
+                        width="32" height="32" title="Bootstrap" id="svgadd">
                </Button>
            </button>
     </center>
-
-
 </div>
 <!-- /.container -->
 
@@ -227,7 +212,6 @@ $(this).hide();
 
 <!-- Footer/Menubar -->
 <div class="container" id="container2" >
-
     <div class="container" id="container21" >
         <a href="startpage.html">
             <Button id="buttonhouse">
@@ -237,18 +221,25 @@ $(this).hide();
     </div>  <!-- End of div container 2.1</h1>  -->
 
         <div class="container" id="container22" >
-            <a href="toDoList.html"><Button>ToDoList</Button></a>
-            <a href="index-Table.html"><Button>TableStyle</Button></a>
-            <a href="bootstrapSite.html"><Button>Bootstrap Page</Button></a>
-        </div> <!-- End of div container 2.2</h1>  -->
-
+            <!--   <a href="toDoList.html"><Button>ToDoList</Button></a>
+                   <a href="index-Table.html"><Button>Table</Button></a>
+                     <a href="bootstrapSite.html"><Button>Bootstrap</Button></a> -->
+            <a href="workpage.html"><Button>Workpage</Button></a>
+       </div> <!-- End of div container 2.2</h1>  -->
 
         <div class="container" id="container23">
-            <a href="prototype01.html"  id="linksettings">
-                <Button id="buttonsettings">
-                    <img src="img/bootstrap icons/wrench.svg" alt="" width="32" height="32" title="Bootstrap" id="svgsettings">
-                </Button>
-            </a>
+
+      <a href="#"  id="linksettings">
+          <Button onclick="contextmenufunction()" id="buttonsettings">
+        <img src="img/bootstrap icons/wrench.svg" width="32" height="32" title="Bootstrap" id="svgsettings">
+       </Button>
+      </a>
+
+            <div  id="contextmenu" >
+          <a href="#"><p>Background / Raster </p></a>
+              <a href="#"><p> Hilfe </p></a>
+              <a href="#"> <p> Beenden</p></a>
+          </div>
         </div><!-- End of div container 2.3</h1>  -->
 
 
