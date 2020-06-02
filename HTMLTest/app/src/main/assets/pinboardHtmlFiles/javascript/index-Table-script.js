@@ -1,6 +1,6 @@
 /* index-Table-script */
 
-/* funktionen Drag&Drop */
+/* *********** Funktionen Drag&Drop ************* */
 function allowDrop(ev) {
   ev.preventDefault();
 }
@@ -15,8 +15,8 @@ function drop(ev) {
   ev.target.appendChild(document.getElementById(data));
   }
 
-/* funktionen PopUp */
 
+/* ************** funktionen PopUp ************** */
 function input(){
 //	alert ("New angeklickt");
 	if (document.getElementById("pContainer").style.display == "block"){
@@ -42,22 +42,6 @@ function newElement(){
 	}
 	 
 }
-
-
-//https://developers.google.com/web/ilt/pwa/working-with-indexeddb
-
-function testIDB(){
-  alert ("IDB TEst started");
-  if (!('indexedDB' in window)) {
-	alert ("IndexedDB is not supportet :(");
-  //console.log('This browser doesn\'t support IndexedDB');
-  return;
-  }else{
-	alert ("IndexedDB is supportet :D");
-  return;
-  }	
-}
-
 
 function placeOnTable(name){
 	var nDiv = document.createElement('div');
