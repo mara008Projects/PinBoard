@@ -16,6 +16,7 @@ function drop(ev) {
   }
 
 /* funktionen PopUp */
+
 function input(){
 //	alert ("New angeklickt");
 	if (document.getElementById("pContainer").style.display == "block"){
@@ -28,7 +29,6 @@ function input(){
 // https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_todo 
 
 function newElement(){
-	testIDB();
 //	alert ("Add angeklickt");
 	var name = document.getElementById("nameInput").value;
 	
@@ -74,6 +74,3 @@ function placeOnTable(name){
 	
 	
 }//*/
-
-
-
