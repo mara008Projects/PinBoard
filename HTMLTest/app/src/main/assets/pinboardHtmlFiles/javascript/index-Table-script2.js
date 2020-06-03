@@ -51,7 +51,7 @@ function placeOnTable2(name){
 	nDiv.setAttribute( 'draggable', true);
 	nDiv.setAttribute('ondragstart',"drag(event)");
 	nDiv.id = "drag4";
-	nDiv.setAttribute('onclick',"location.href='modulpage.html';");
+	nDiv.setAttribute('onclick',"location.href='modules/modulpage.html';");
 
 	nDiv.innerHTML = name;
 
