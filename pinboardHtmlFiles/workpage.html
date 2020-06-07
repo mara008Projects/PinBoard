@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--  <link rel = "Stylesheet" href = "https://fonts.googleapis.com/css?family=Tangerine" > -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <!-- Required meta tags -->
+    <link rel="stylesheet" href="css/boardpagestyle.css">
+    <script src="javascript/jquery-3.5.1.min.js" ></script>
+    <script src="bootstrap/js/bootstrap.min.js" ></script>
+
+
+    <link rel="stylesheet" href="css/index-Table-style.css">
+
+      <!-- Script create new table item in workpage -->
+     <script src="javascript/workspace-script.js"></script>
+
+    <!-- Kontextmenu Funktion -->
+    <script src="javascript/contextmenufunction.js"></script>
+     <title>Workpage</title>
+
+    <style>
+
+       body{
+        background-color: #FFA64D;
+        }
+
+#myTable, #container1 {background-color: #FFBF80;}
+
+    </style>
+
+
+ </head>
+ <body>
+
+ <h3 class=mainheading >Workpage</h3>
+ <!-- Navigation -->
+
+
+
+<!-- Page Content -->
+<!-- Main Content Container-->
+<div class="container" id="container1" " >
+    <!--    <h1 class="mt-4">Logo Nav by Start Bootstrap</h1>
+       <p>The logo in the navbar is now a default Bootstrap feature in Bootstrap 4! Make sure to set the width and height of the logo within the HTML or with CSS. For best results, use an SVG image as your logo.</p>
+   -->
+       <center>
+           <!-- Dropdown Inputbox   -->
+        <div id="pContainer" class="pContainer">
+            <h2 style="margin:5px">New Project Name</h2>
+            <input type="text" id="nameInput" placeholder="Name...">
+            <Button onclick="newElement2()" class="addBtn"> Add </Button>
+        </div>
+
+        <!-- Tabelle mit Drag&Drop Funktion -->
+
+     <table id = "myTable">
+               <tr>
+                   <th id="t-11" ondrop="drop(event)" ondragover="allowDrop(event)">
+                 <div class="note"
+                                  draggable="true"
+                                  ondragstart="drag(event)"
+                                  id="drag1"
+                                  onclick="location.href='modules/modulpage.html';"
+                             >Item 1</div>
+                         </th>
+                         <th id="t-12" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                         <th id="t-13" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                         <th id="t-14" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                         <th id="t-15" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                     </tr>
+                     <tr>
+                         <th id="t-21" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                         <th id="t-22" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                         <th id="t-23" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <div class="note"
+                                      draggable="true"
+                                      ondragstart="drag(event)"
+                                      id="drag2"
+                                      onclick="location.href='modules/modulpage.html';"
+                                 >Text-2</div>
+                   </th>
+                   <th id="t-24" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                   <th id="t-25" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+               </tr>
+               <tr>
+                   <th id="t-31" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                   <th id="t-32" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                   <th id="t-33" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                   <th id="t-34" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                   <th id="t-35" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+               </tr>
+               <tr>
+                   <th id="t-41" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <!--    <div class="note"
+                          draggable="true"
+                          ondragstart="drag(event)"
+                          id="drag3"
+                            onclick="location.href='modules/modulpage.html';"
+                            >Text-3</div> -->
+
+                          </th>
+                          <th id="t-42" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                          <th id="t-43" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                          <th id="t-44" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                          <th id="t-45" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                      </tr>
+                      <tr>
+                          <th id="t-51" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                          <th id="t-52" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                          <th id="t-53" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                          <th id="t-54" ondrop="drop(event)" ondragover="allowDrop(event)"></th>
+                          <th id="t-55" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                          </th>
+
+                      </tr>
+
+                  </table>
+           <!-- Bootstrap icons -->
+           <div class="functionpanel">
+
+            <button id="btnnewitem1" onclick="input()">
+
+                  <a href="modules/paint app.html">
+                <img src="img/bootstrap icons/brush.svg" alt="paint"
+                     width="32" height="32" title="Paint" >
+                   </a>
+            </button>
+
+            <!-- 1.Paint Modul Versuch -->
+            <button id="btnnewitem2" onclick="input()">
+                <a href="modules/paint-page.html">
+                <img src="img/bootstrap icons/calendar-date-fill.svg" alt="calendar"
+                     width="32" height="32" title="Calendar" >
+                   </a>
+            </button>
+            <button id="btnnewitem3" onclick="input()">
+                  <a href="modules/modulpage.html">
+                <img src="img/bootstrap icons/table.svg" alt="table"
+                     width="32" height="32" title="Table">
+                   </a>
+            </button>
+
+            <button id="btnnewitem4" onclick="input()">
+              <a href="modules/modulpage.html">
+                <img src="img/bootstrap icons/music-note.svg" alt="media"
+                     width="32" height="32" title="Music and Video" >
+                      </a>
+            </button>
+                        <button id="btnnewitem5" onclick="input()">
+                            <a href="modules/modulpage.html">
+                <img src="img/bootstrap icons/pencil-square.svg" alt="Text"
+                     width="32" height="32" title="Texteditor" >
+                      </a>
+            </button>
+            <button id="btnnewitem6" onclick="input()">
+                <a href="modules/modulpage.html">
+                <img src="img/bootstrap icons/textarea.svg" alt="Mindmap"
+                     width="32" height="32" title="Mindmap und UML" >
+                         </a>
+            </button>
+
+          </button>
+          <button id="btnnewitem7" onclick="input()">
+              <a href="modules/pdf-page.html">
+              <img src="img/bootstrap icons/book-half.svg" alt="PDF"
+                   width="32" height="32" title="PDF" id="svgadd">
+                       </a>
+          </button>
+   </div>
+
+       </center>
+
+
+   </div>
+
+
+
+ <!--Footer/Menubar -->
+<div class="container" id="container2" >
+
+    <div class="container" id="container21" >
+        <a href="startpage.html">
+            <Button id="buttonhouse">
+                <img src="img/bootstrap icons/house-fill.svg" alt="" width="32" height="32" title="Bootstrap" id="svghouse">
+            </Button>
+             </a>
+    </div>  <!-- End of div container 2.1</h1>  -->
+
+        <div class="container" id="container22" >
+            <!--     <a href="toDoList.html"><Button>ToDoList</Button></a>
+                 <a href="bootstrapSite.html"><Button>Bootstrap</Button></a>  -->
+                 <a href="workpage.html"><Button>Workpage</Button></a>
+
+             </div> <!-- End of div container 2.2</h1>  -->
+
+
+        <div class="container" id="container23">
+
+            <a  href="#"  id="linksettings">
+                <Button onclick="contextmenufunction()" id="buttonsettings">
+                    <img src="img/bootstrap icons/wrench.svg" alt="" width="32" height="32" title="Bootstrap" id="svgsettings">
+                </Button>
+            </a>
+
+            <div  id="contextmenu" >
+          <a href="#"><p>Background / Raster </p></a>
+              <a href="#"><p> Hilfe </p></a>
+              <a href="#"> <p> Beenden</p></a>
+          </div>
+
+
+        </div>
+        <!-- End of div container 2.3</h1>  -->
+
+
+    <!-- <h1 class="mt-4">Logo Nav by Start Bootstrap</h1>
+    <p>The logo in the navbar is now a default Bootstrap feature in Bootstrap 4!
+    Make sure to set the width and height of the logo within the HTML or with CSS. For best results, use an SVG image as your logo.</p> -->
+</div> <!-- End of div container 2</h1>  -->
+
+</body>
+</html>

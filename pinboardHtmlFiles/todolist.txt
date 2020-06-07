@@ -1,0 +1,4 @@
+
+modulpages function
+
+Closing window/app js

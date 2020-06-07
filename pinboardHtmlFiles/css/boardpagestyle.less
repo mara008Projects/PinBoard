@@ -1,0 +1,282 @@
+//Minimale Displygroesse 454 (Breite) x 606 (Höhe) px
+
+
+// Dies ist ein LESS Stylesheet
+
+//schrift wird eingebettet und in less variable gepackt:
+@font-face {font-family: "atp"; src: url("../fonts/All Things Pink Skinny.ttf");}
+@fontatp: "atp";
+
+//LESS Variablen:
+@bgcolor: #003d66;      //Blau Hintergrund
+@compcolor: #bf00ff;    //Pink Textboxen
+@fontcolor: #e6f5ff;    //Schrift weiss
+@headingcolor: #ccebff;  //hellblau Headings
+@fontweightHighlight:  bold;    //schrift fett
+@fontHighlightColor: DodgerBlue;      //cyan bei hover hadings
+@fontsizetext: 2vw !important;
+@fontsizeHeader: 5vw !important;
+
+@fontcolordefault: #686169;
+
+@maincontainerwidth: 96.2%;
+@maincontainerheight: 90%;
+
+@holzfarbe: #ffbf80;
+@holzfarbeDarker: #ffa64d;
+@boardheight:  100vh;
+@bordercolor: #d18234;
+
+.borderstyle {
+border-radius: 25px;
+border: 2px solid @bordercolor;
+}
+
+.centerstyle {
+display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+body {
+background: @holzfarbe; width: 100%;
+height: 100%;
+}
+
+div.container {
+//background:@holzfarbeDarker;
+}
+
+p {
+color: @fontcolordefault;
+//font-size: @fontsizetext;
+}
+
+h1 {
+color: @headingcolor;
+font-family: @fontatp;
+font-size: @fontsizeHeader;
+}
+
+h3 {
+//color: @fontcolordefault;
+//font-family: 'atp', Fallback, sans-serif;
+font-family: @fontatp;
+//font-size: @fontsizeHeader;
+
+}
+
+.mainheading {
+color: @fontcolordefault;
+font-weight: @fontweightHighlight;
+margin-left: 1.5vh;
+margin-top: 0.3vh;
+}
+
+a.nav-link {
+
+}
+
+
+a.nav-link:hover {
+font-weight: @fontweightHighlight;
+
+}
+
+h1:hover {
+ font-weight: @fontweightHighlight;
+ color: @fontHighlightColor;
+ }
+
+h3:hover {
+font-weight: @fontweightHighlight;
+color: @fontHighlightColor;
+}
+
+li {
+color: @fontcolor;
+}
+
+
+/*main container Board */
+#container1{
+.borderstyle;
+max-width: @maincontainerwidth;
+//margin-top: 3vh;
+min-height: 84.0vh;
+background:@holzfarbeDarker;
+
+}
+
+#myTable {
+width: 100%;
+background:@holzfarbeDarker;
+height: 84vh;
+margin: 0 auto;
+}
+
+table tr th{
+background: transparent !important;
+}
+
+#btnnewitem{
+position: fixed;
+top: 75vh;
+ right: 10.5vh;
+ }
+
+
+//footer Menubar
+ #container2 {
+ max-width: @maincontainerwidth;
+ background-color:DodgerBlue;
+    min-height: 9vh;
+    .borderstyle;
+  display: flex;
+    align-items: center;
+}
+
+/* mittlerer container für buttons, footer */
+ #container22 {
+ border: 2px solid blue;
+ width: 75%;
+  padding: 0;
+.centerstyle;
+ }
+
+
+// container für buttons house/links und settings/rechts (footer)
+ #container21, #container23 {
+ border: 2px solid coral;
+ width: 12.5%;
+.centerstyle;
+ }
+
+/* alle btn die im container2/footer sind */
+ #container2 button {
+//border: 2px solid purple;
+margin: 0;
+padding: 0;
+ }
+
+ #container1{ margin-top: 1vh;}
+
+
+/* Einstellungen Kontextmneu Settings nochmal mit navar bootstrap dorpdown überarbeiten !!!*/
+#contextmenu {
+  height: 16vh;
+//  min-height: 7vh;
+  width: 26.5vh;
+  min-width: 17vh;
+  background-color: DodgerBlue;
+
+    bottom: 11.5vh;
+
+right: 2.4em;
+display: none;
+  .borderstyle;
+     margin-right: auto;
+     margin-left: auto;
+  overflow: hidden;
+align-items:  center;
+position: fixed;
+p {
+
+font-size: 1em;
+text-align: left;
+margin: 3px;
+padding-top: 0.5em;
+padding-left: 0.3em;
+color: black;
+//display: block;
+  //   background-color: white;
+  .borderstyle;
+}
+}
+
+
+
+@media only screen and (max-height: 787px) {
+  #contextmenu {
+
+//background-color: pink;
+      bottom: 11vh;
+        height: 14.6vh;
+        font-size: 0.7em;
+  }
+}
+
+@media only screen and (max-height: 616px) {
+  #contextmenu {
+//background-color: blue;
+      bottom: 11vh;
+        height: 14vh;
+        font-size: 0.6em;
+  }
+}
+
+@media only screen and (max-height: 590px) {
+  #contextmenu {
+ //background-color: green;
+      bottom: 11vh;
+        height: 16.5vh;
+        font-size: 0.6em;
+  }
+}
+
+@media only screen and (max-height: 500px) {
+  #contextmenu {
+// background-color: cyan;
+      bottom: 11vh;
+        height: 19.5vh;
+        font-size: 0.6em;
+  }
+}
+
+
+/* Funktionspanel Work and Modulpage */
+
+
+.functionpanel {
+
+  //border-style: solid;
+
+   display: flex;
+    flex-direction: column;
+    width: 11vh;
+    padding: 15px;
+  background-color: lighten(coral, 10%);
+position: fixed;
+    right: 2.7em;
+top: 10.7em;
+align-items: center;
+
+position: absolute;
+  right: 2.1vw;
+
+button {
+margin: 6px;
+  background-color: lighten(green, 12%);
+
+}
+
+}
+
+@media only screen and (max-width: 785px) {
+.functionpanel {
+  background-color: #8080ff;
+      width: 9vh;
+      position: absolute;
+        right: 2.2vw;
+          top: 10.7em;
+
+
+  }
+}
+
+#contextmenu{
+  position: absolute;
+  right: 2.1vw;
+  bottom: 11%;
+}

@@ -1,0 +1,192 @@
+@font-face {
+  font-family: "atp";
+  src: url("../fonts/All Things Pink Skinny.ttf");
+}
+.borderstyle {
+  border-radius: 25px;
+  border: 2px solid #d18234;
+}
+.centerstyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background: #ffbf80;
+  width: 100%;
+  height: 100%;
+}
+p {
+  color: #686169;
+}
+h1 {
+  color: #ccebff;
+  font-family: "atp";
+  font-size: 5vw;
+}
+h3 {
+  font-family: "atp";
+}
+.mainheading {
+  color: #686169;
+  font-weight: bold;
+  margin-left: 1.5vh;
+  margin-top: 0.3vh;
+}
+a.nav-link:hover {
+  font-weight: bold;
+}
+h1:hover {
+  font-weight: bold;
+  color: #1e90ff;
+}
+h3:hover {
+  font-weight: bold;
+  color: #1e90ff;
+}
+li {
+  color: #e6f5ff;
+}
+/*main container Board */
+#container1 {
+  border-radius: 25px;
+  border: 2px solid #d18234;
+  max-width: 96.2%;
+  min-height: 84.0vh;
+  background: #ffa64d;
+}
+#myTable {
+  width: 100%;
+  background: #ffa64d;
+  height: 84vh;
+  margin: 0 auto;
+}
+table tr th {
+  background: transparent !important;
+}
+#btnnewitem {
+  position: fixed;
+  top: 75vh;
+  right: 10.5vh;
+}
+#container2 {
+  max-width: 96.2%;
+  background-color: DodgerBlue;
+  min-height: 9vh;
+  border-radius: 25px;
+  border: 2px solid #d18234;
+  display: flex;
+  align-items: center;
+}
+/* mittlerer container für buttons, footer */
+#container22 {
+  border: 2px solid blue;
+  width: 75%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container21,
+#container23 {
+  border: 2px solid coral;
+  width: 12.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* alle btn die im container2/footer sind */
+#container2 button {
+  margin: 0;
+  padding: 0;
+}
+#container1 {
+  margin-top: 1vh;
+}
+/* Einstellungen Kontextmneu Settings nochmal mit navar bootstrap dorpdown überarbeiten !!!*/
+#contextmenu {
+  height: 16vh;
+  width: 26.5vh;
+  min-width: 17vh;
+  background-color: DodgerBlue;
+  bottom: 11.5vh;
+  right: 2.4em;
+  display: none;
+  border-radius: 25px;
+  border: 2px solid #d18234;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  align-items: center;
+  position: fixed;
+}
+#contextmenu p {
+  font-size: 1em;
+  text-align: left;
+  margin: 3px;
+  padding-top: 0.5em;
+  padding-left: 0.3em;
+  color: black;
+  border-radius: 25px;
+  border: 2px solid #d18234;
+}
+@media only screen and (max-height: 787px) {
+  #contextmenu {
+    bottom: 11vh;
+    height: 14.6vh;
+    font-size: 0.7em;
+  }
+}
+@media only screen and (max-height: 616px) {
+  #contextmenu {
+    bottom: 11vh;
+    height: 14vh;
+    font-size: 0.6em;
+  }
+}
+@media only screen and (max-height: 590px) {
+  #contextmenu {
+    bottom: 11vh;
+    height: 16.5vh;
+    font-size: 0.6em;
+  }
+}
+@media only screen and (max-height: 500px) {
+  #contextmenu {
+    bottom: 11vh;
+    height: 19.5vh;
+    font-size: 0.6em;
+  }
+}
+/* Funktionspanel Work and Modulpage */
+.functionpanel {
+  display: flex;
+  flex-direction: column;
+  width: 11vh;
+  padding: 15px;
+  background-color: #ffa483;
+  position: fixed;
+  right: 2.7em;
+  top: 10.7em;
+  align-items: center;
+  position: absolute;
+  right: 2.1vw;
+}
+.functionpanel button {
+  margin: 6px;
+  background-color: #00bd00;
+}
+@media only screen and (max-width: 785px) {
+  .functionpanel {
+    background-color: #8080ff;
+    width: 9vh;
+    position: absolute;
+    right: 2.2vw;
+    top: 10.7em;
+  }
+}
+#contextmenu {
+  position: absolute;
+  right: 2.1vw;
+  bottom: 11%;
+}

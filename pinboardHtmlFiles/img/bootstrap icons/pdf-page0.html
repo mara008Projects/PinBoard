@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <!-- Required meta tags -->
+    <link rel="stylesheet" href="../css/index-Table-style.css">
+    <link rel="stylesheet" href="../css/modulpagestyle.css">
+    <link rel="stylesheet" href="../css/boardpagestyle.css">
+
+
+    <script src="../javascript/jquery-3.5.1.min.js" ></script>
+    <script src="../bootstrap/js/bootstrap.min.js" ></script>
+<!--     <script src="../javascript/index-Table-script2.js"></script> -->
+    <!-- Kontextmenu Funktion -->
+  <!--  <script src="../javascript/contextmenufunction.js"></script> -->
+
+
+     <title>PDF Page</title>
+ </head>
+ <body>
+
+ <h3 class=mainheading >
+       <a href="../workpage.html"  style="text-decoration: none;">
+   <img src="../img/bootstrap icons/arrow-left.svg" alt="" width="32" height="32" title="Back" >
+</a>PDF Page</h3>
+ <!-- Navigation -->
+
+
+<!-- Page Content -->
+<!-- Main Content Container-->
+<div class="container" id="container1" >
+    <!--    <h1 class="mt-4">Logo Nav by Start Bootstrap</h1>
+       <p>The logo in the navbar is now a default Bootstrap feature in Bootstrap 4! Make sure to set the width and height of the logo within the HTML or with CSS. For best results, use an SVG image as your logo.</p>
+   -->
+   <object data="sample.pdf" style="width:100%; height:83.6vh;">
+       <a href="sample.pdf">PDF laden</a> </object>
+
+       <center>
+           <!-- Dropdown Inputbox   -->
+           <!--     <div id="pContainer" class="pContainer">
+                  <h2 style="margin:5px">New Project Name</h2>
+                  <input type="text" id="nameInput" placeholder="Name...">
+                  <Button onclick="newElement()" class="addBtn"> Add </Button>
+              </div>  -->
+
+           <!-- Bootstrap icons -->
+           <div class="functionpanel">
+
+               <button id="btnnewitem1" onclick="input()">
+                   <img src="../img/bootstrap icons/plus-circle-fill.svg" alt="#" id="svgadd"
+                        width="32" height="32" title="Bootstrap" >
+               </button>
+               <button id="btnnewitem2" onclick="input()">
+                   <img src="../img/bootstrap icons/plus-circle-fill.svg" alt="#"
+                        width="32" height="32" title="Bootstrap" >
+               </button>
+               <button id="btnnewitem3" onclick="input()">
+                   <img src="../img/bootstrap icons/plus-circle-fill.svg" alt="#"
+                        width="32" height="32" title="Bootstrap" >
+               </button>
+
+               <button id="btnnewitem4" onclick="input()">
+                   <img src="../img/bootstrap icons/plus-circle-fill.svg" alt="#"
+                        width="32" height="32" title="Bootstrap" >
+               </button>
+               <button id="btnnewitem5" onclick="input()">
+                   <img src="../img/bootstrap icons/plus-circle-fill.svg" alt="#"
+                        width="32" height="32" title="Bootstrap" >
+               </button>
+
+               <button id="btnnewitem6" onclick="input()">
+                   <img src="../img/bootstrap icons/plus-circle-fill.svg" alt="#"
+                        width="32" height="32" title="Bootstrap" >
+               </button>
+           </div>
+       </center>
+   </div>
+
+
+
+ <!--Footer/Menubar -->
+ <div class="container" id="container2" >
+     <div class="container" id="container21" >
+          <!-- Home Button Back to workpage  -->
+         <a href="../startpage.html">
+             <Button id="buttonhouse">
+                 <img src="../img/bootstrap icons/house-fill.svg" alt="" width="32" height="32" title="Bootstrap" id="svghouse">
+             </Button>
+         </a>
+     </div>  <!-- End of div container 2.1</h1>  -->
+
+     <div class="container" id="container22" >
+       <!-- Dont save Button Back to workpage  -->
+
+         <!--   <a href="toDoList.html"><Button>ToDoList</Button></a>
+                <a href="index-Table.html"><Button>Table</Button></a>
+                  <a href="bootstrapSite.html"><Button>Bootstrap</Button></a> -->
+         <a href="../workpage.html"><Button>Workpage</Button></a>
+     </div> <!-- End of div container 2.2</h1>  -->
+
+     <div class="container" id="container23">
+<!-- Save Button Back to workpage  -->
+         <a href="../workpage.html"  id="linksettings">
+             <Button onclick="contextmenufunction()" id="buttonsettings">
+                 <img src="../img/bootstrap icons/check2.svg" width="32" height="32" title="Bootstrap" id="#">
+             </Button>
+         </a>
+
+         <!--   <div  id="contextmenu" >
+              <a href="#"><p>Background / Raster </p></a>
+              <a href="#"><p> Hilfe </p></a>
+              <a href="#"> <p> Beenden</p></a>
+          </div>
+      </div> -->
+
+               <!-- End of div container 2.3</h1>  -->
+
+
+</div>
+
+</body>
+</html>

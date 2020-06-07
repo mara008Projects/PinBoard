@@ -1,0 +1,30 @@
+body {
+  background-color: white;
+}
+/*
+#container1, table tr th {background-color: lighten(@color, 55%) !important;}
+*/
+#container1 {
+  background-color: #7abdff !important;
+}
+/*
+If the margin property has four values:
+
+    margin: 25px 50px 75px 100px;
+        top margin is 25px
+        right margin is 50px
+        bottom margin is 75px
+        left margin is 100px
+  margin: 5px 9px 0px 0px;
+*/
+#svgpaperclip {
+  position: relative;
+  float: right;
+  margin: 5px 15px 0px 0px;
+}
+#myCanvas {
+  width: 100%;
+  height: 83.6vh;
+  border: 1px solid #c3c3c3;
+  background: #F8F8F8;
+}
