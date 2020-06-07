@@ -1,6 +1,6 @@
 /* index-Table-script */
 
-/* funktionen Drag&Drop */
+/* *********** Funktionen Drag&Drop ************* */
 function allowDrop(ev) {
   ev.preventDefault();
 }
@@ -15,7 +15,8 @@ function drop(ev) {
   ev.target.appendChild(document.getElementById(data));
   }
 
-/* funktionen PopUp */
+
+/* ************** funktionen PopUp ************** */
 function input(){
 //	alert ("New angeklickt");
 	if (document.getElementById("pContainer").style.display == "block"){
@@ -25,25 +26,22 @@ function input(){
 	}
 }
 
-// https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_todo
+// https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_todo 
 
 function newElement(){
 //	alert ("Add angeklickt");
 	var name = document.getElementById("nameInput").value;
-
+	
 	if (name === '') {
 		alert ("Ungültiger Name!");
 	} else  {
 	//	document.getElementById("myTable").appendChild(th);
-		input(); //schließt PopUp
-
-		placeOnTable(name);
+		input(); //schließt PopUp 
+		
+		placeOnTable(name);	
 	}
-
+	 
 }
-
-
-
 
 function placeOnTable(name){
 	var nDiv = document.createElement('div');
@@ -51,12 +49,12 @@ function placeOnTable(name){
 	nDiv.setAttribute( 'draggable', true);
 	nDiv.setAttribute('ondragstart',"drag(event)");
 	nDiv.id = "drag4";
-	nDiv.setAttribute('onclick',"location.href='workpage.html';");
-
+	nDiv.setAttribute('onclick',"location.href='prototype01.html';");
+					
 	nDiv.innerHTML = name;
-
+	
 	document.getElementById('t-11').appendChild( nDiv );
-
-
-
+	
+	
+	
 }//*/
