@@ -1,4 +1,4 @@
-#Sat May 23 16:22:50 CEST 2020
-base.0=C\:\\Users\\User\\AndroidStudioProjects\\HTMLTest\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+#Sun Jun 07 22:29:12 CEST 2020
+base.0=L\:\\PinBoard\\PinBoard2\\PinBoard\\HTMLTest\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
