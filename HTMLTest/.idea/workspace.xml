@@ -16,7 +16,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_10_Android_9.0" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_One_API_28_9.0_Pie_" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -52,14 +52,14 @@
   <component name="PropertiesComponent">
     <property name="ApkExportedModule" value="app" />
     <property name="BundleExportedModule" value="app" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_10_Android_9.0" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-05-23T14:22:27.318Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_One_API_28_9.0_Pie_" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-06-07T20:27:32.987Z" />
     <property name="ExportApk.ApkPath" value="C:\Users\User\AndroidStudioProjects\HTMLTest\app" />
     <property name="ExportApk.BuildVariants" value="release" />
     <property name="ExportApk.SignV1" value="true" />
     <property name="ExportApk.SignV2" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/assets/pinboardHtmlFiles/img/bootstrap icons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Suggestions" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />

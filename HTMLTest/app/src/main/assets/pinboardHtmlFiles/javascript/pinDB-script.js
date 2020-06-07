@@ -2,7 +2,8 @@
 var pinBoardDB;
 
 function startDB(){
-	alert ("scrip gestartet");
+	//alert ("scrip gestartet");
+	//placeOnTable("scrip gestartet");
 /*
 	if (!('indexedDB' in window)) {
 		alert ("IndexedDB is not supportet :(");
@@ -11,11 +12,12 @@ function startDB(){
 		alert ("IndexedDB is supportet :D");
 	}
 */
-	pinDB = indexedDB.open("PinDB");
+	pinDB = indexedDB.open("PinDB",1);
 
 	pinDB.onupgradeneeded = function(){
 		alert (" firstTime Use");
-
+		placeOnTable(" firstTime Use");
+	
 		var db 		  = pinDB.result;
 		var pStore    = db.createObjectStore("projekte", {keyPath: "pID"});
 		var pTitle    = pStore.createIndex("by_pName", "pName");
@@ -36,6 +38,7 @@ function startDB(){
 		store.put ( { pID: 1, pName: "Test01", pPos: 't-22' } ) ;
 		store.put ( { pID: 2, pName: "Test02", pPos: 't-13' } ) ;
 		alert ("Inhalte Plaziert");
+		placeOnTable(" Inhalte Plaziert");
 	}
 
 
@@ -65,6 +68,26 @@ function startDB(){
 	}
 
 	pinDB.onerror = function(e){
+		placeOnTable( "Ein Fehler ist aufgetreten: "+e.target.errorCode);
 		alert ("Ein Fehler ist aufgetreten: "+e.target.errorCode);
 	}
+}
+
+
+
+
+
+function placeOnTable(name){
+	var nDiv = document.createElement('div');
+	nDiv.className = "note"
+	nDiv.setAttribute( 'draggable', true);
+	nDiv.setAttribute('ondragstart',"drag(event)");
+	nDiv.id = "drag4";
+	nDiv.setAttribute('onclick',"location.href='prototype01.html';");
+					
+	nDiv.innerHTML = name;
+	
+	document.getElementById('t-33').appendChild( nDiv );
+	
+	
 }

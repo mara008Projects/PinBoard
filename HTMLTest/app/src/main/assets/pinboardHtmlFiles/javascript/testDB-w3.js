@@ -1,8 +1,9 @@
 //*https://www.w3.org/TR/IndexedDB/
 
 function testIDB(){
-//	alert ("Test begonnen");
-
+	alert ("TestIDB begonnen");
+	
+	
 	window.indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || 
 	window.msIndexedDB;
  
@@ -23,6 +24,8 @@ function testIDB(){
 	request.onupgradeneeded = function() {
 		// The database did not previously exist, so create object stores and indexes.
 		alert ("Library doesnt existr jet");
+		
+		
 		var db = request.result;
 		var store = db.createObjectStore("books", {keyPath: "isbn"});
 		var titleIndex = store.createIndex("by_title", "title", {unique: true});
@@ -38,10 +41,12 @@ function testIDB(){
 	request.onsuccess = function() {
 		db = request.result;
 		alert (db.);
+		
 	};
 
 	request.onerror = function(e) {
 		alert ("an error ocured: "+e.target.errorCode);
+		
 	}
 }
 
@@ -79,3 +84,4 @@ request.onsuccess = function() {
     report(null);
   }
 };
+
